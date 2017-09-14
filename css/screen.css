@@ -232,7 +232,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .ander_top_pikture {
   width: 100%;
   position: relative;
-  background-color: pink;
   z-index: 999;
 }
 
