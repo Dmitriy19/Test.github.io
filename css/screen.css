@@ -75,7 +75,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 1;
 }
 
-/* line 21, ../sass/screen.sass */
+/* line 22, ../sass/screen.sass */
 .logo {
   width: 130px;
   height: 45px;
@@ -86,7 +86,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 84px auto;
 }
 
-/* line 32, ../sass/screen.sass */
+/* line 33, ../sass/screen.sass */
 .menu {
   width: 60px;
   height: 45px;
@@ -98,7 +98,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 40px auto;
 }
 
-/* line 45, ../sass/screen.sass */
+/* line 46, ../sass/screen.sass */
 .ander_header {
   position: relative;
   width: 100%;
@@ -110,13 +110,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 57, ../sass/screen.sass */
+/* line 58, ../sass/screen.sass */
 .ander_header_text {
   width: 560px;
   margin: 164px auto 210px auto;
 }
 
-/* line 61, ../sass/screen.sass */
+/* line 62, ../sass/screen.sass */
 .main_text {
   font-size: 38px;
   text-align: center;
@@ -124,7 +124,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "OpenSansSemiBold";
 }
 
-/* line 67, ../sass/screen.sass */
+/* line 68, ../sass/screen.sass */
 .ander_main_text {
   color: #fff;
   font-size: 14;
@@ -134,13 +134,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 1.2;
 }
 
-/* line 75, ../sass/screen.sass */
+/* line 76, ../sass/screen.sass */
 .ander_top_pikture {
   position: relative;
-  height: 400px;
+  height: 300px;
 }
 
-/* line 81, ../sass/screen.sass */
+/* line 82, ../sass/screen.sass */
 .slide_buttons {
   position: absolute;
   z-index: 1;
@@ -148,7 +148,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
 }
 
-/* line 88, ../sass/screen.sass */
+/* line 89, ../sass/screen.sass */
 .slide_buttons_box {
   width: 120px;
   height: 26px;
@@ -167,11 +167,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  * padding: 3px
  * &:hover
  * 	I: pink */
-/* line 109, ../sass/screen.sass */
+/* line 110, ../sass/screen.sass */
 .button1 {
   height: 14px;
   width: 14px;
-  background-color: #fff;
+  background-color: #dddddd;
   border-radius: 15px;
   float: left;
   margin-top: 5px;
@@ -179,7 +179,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-right: 2px;
   padding: 3px;
 }
-/* line 120, ../sass/screen.sass */
+/* line 121, ../sass/screen.sass */
 .button1:hover {
   background-color: pink;
   height: 16px;
@@ -188,18 +188,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: 17px;
 }
 
-/* line 130, ../sass/screen.sass */
+/* line 131, ../sass/screen.sass */
 .button2 {
   height: 14px;
   width: 14px;
-  background-color: #fff;
+  background-color: #dddddd;
   border-radius: 15px;
   float: left;
   margin-top: 5px;
   margin-left: 12px;
   padding: 3px;
 }
-/* line 140, ../sass/screen.sass */
+/* line 141, ../sass/screen.sass */
 .button2:hover {
   background-color: pink;
   height: 16px;
@@ -208,18 +208,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: 11px;
 }
 
-/* line 150, ../sass/screen.sass */
+/* line 151, ../sass/screen.sass */
 .button3 {
   height: 14px;
   width: 14px;
-  background-color: #fff;
+  background-color: #dddddd;
   border-radius: 15px;
   float: left;
   margin-top: 5px;
   margin-left: 12px;
   padding: 3px;
 }
-/* line 160, ../sass/screen.sass */
+/* line 161, ../sass/screen.sass */
 .button3:hover {
   background-color: pink;
   height: 16px;
@@ -228,14 +228,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: 11px;
 }
 
-/* line 171, ../sass/screen.sass */
+/* line 172, ../sass/screen.sass */
 .ander_top_pikture {
   width: 100%;
   position: relative;
   z-index: 999;
 }
 
-/* line 178, ../sass/screen.sass */
+/* line 179, ../sass/screen.sass */
 .topick_block {
   position: relative;
   width: 100%;
@@ -246,7 +246,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 999;
 }
 
-/* line 191, ../sass/screen.sass */
+/* line 192, ../sass/screen.sass */
 .topick_block_text {
   position: absolute;
   width: 100%;
@@ -256,26 +256,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 34px;
 }
 
-/* line 200, ../sass/screen.sass */
+/* line 201, ../sass/screen.sass */
 .ander_topick_block {
   position: relative;
   width: 100%;
 }
 
-/* line 207, ../sass/screen.sass */
+/* line 208, ../sass/screen.sass */
 .includ_ander_topick_block {
   position: relative;
   width: 85%;
   margin: 0 auto;
 }
 
-/* line 214, ../sass/screen.sass */
+/* line 215, ../sass/screen.sass */
 .includ_ander_topick_block .row, .container {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 220, ../sass/screen.sass */
+/* line 221, ../sass/screen.sass */
 .inf_block {
   width: 180px;
   height: 176px;
@@ -283,7 +283,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 3px;
 }
 
-/* line 234, ../sass/screen.sass */
+/* line 235, ../sass/screen.sass */
 .inf_block_pict1 {
   position: relative;
   height: 54px;
@@ -295,7 +295,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 80px auto;
 }
 
-/* line 245, ../sass/screen.sass */
+/* line 246, ../sass/screen.sass */
 .inf_block_pict2 {
   position: relative;
   height: 54px;
@@ -307,7 +307,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 70px auto;
 }
 
-/* line 256, ../sass/screen.sass */
+/* line 257, ../sass/screen.sass */
 .inf_block_pict3 {
   position: relative;
   height: 54px;
@@ -319,7 +319,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 56px auto;
 }
 
-/* line 267, ../sass/screen.sass */
+/* line 268, ../sass/screen.sass */
 .inf_block_pict4 {
   position: relative;
   height: 54px;
@@ -331,7 +331,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 56px auto;
 }
 
-/* line 278, ../sass/screen.sass */
+/* line 279, ../sass/screen.sass */
 .inf_block_main_text {
   position: relative;
   height: 30px;
@@ -343,7 +343,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 3px 0px 0px 3px;
 }
 
-/* line 289, ../sass/screen.sass */
+/* line 290, ../sass/screen.sass */
 .inf_block_text {
   position: relative;
   height: 70px;
@@ -355,14 +355,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 16px;
 }
 
-/* line 302, ../sass/screen.sass */
+/* line 303, ../sass/screen.sass */
 .our_latest_works_block {
   position: relative;
   width: 100%;
   clear: both;
 }
 
-/* line 309, ../sass/screen.sass */
+/* line 310, ../sass/screen.sass */
 .our_latest_works_block_head {
   position: relative;
   top: 40px;
@@ -373,19 +373,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "OpenSansSemiBold";
 }
 
-/* line 319, ../sass/screen.sass */
+/* line 320, ../sass/screen.sass */
 .piktures_block1_top {
   position: relative;
   height: auto;
 }
 
-/* line 323, ../sass/screen.sass */
+/* line 324, ../sass/screen.sass */
 .piktures_block1 {
   position: relative;
   width: 100%;
 }
 
-/* line 329, ../sass/screen.sass */
+/* line 330, ../sass/screen.sass */
 .piktures_block1_1 {
   width: 100%;
   float: left;
@@ -396,7 +396,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 339, ../sass/screen.sass */
+/* line 340, ../sass/screen.sass */
 .piktures_block1_2 {
   width: 100%;
   float: left;
@@ -407,24 +407,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 349, ../sass/screen.sass */
+/* line 350, ../sass/screen.sass */
 .piktures_block1 .col-sm-6, .col-md-6 {
   margin: 0;
   padding: 0;
 }
 
-/* line 355, ../sass/screen.sass */
+/* line 356, ../sass/screen.sass */
 .piktures_block1_ander {
   width: 100%;
 }
 
-/* line 359, ../sass/screen.sass */
+/* line 360, ../sass/screen.sass */
 .piktures_block1_ander .col-sm-6, .col-md-6, .col-lg-3 {
   margin: 0;
   padding: 0;
 }
 
-/* line 363, ../sass/screen.sass */
+/* line 364, ../sass/screen.sass */
 .piktures_block2_1 {
   width: 100%;
   height: 150px;
@@ -434,7 +434,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 371, ../sass/screen.sass */
+/* line 372, ../sass/screen.sass */
 .piktures_block2_2 {
   width: 100%;
   height: 150px;
@@ -444,7 +444,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 379, ../sass/screen.sass */
+/* line 380, ../sass/screen.sass */
 .piktures_block2_3 {
   width: 100%;
   height: 150px;
@@ -454,7 +454,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 387, ../sass/screen.sass */
+/* line 388, ../sass/screen.sass */
 .piktures_block2_4 {
   width: 100%;
   height: 150px;
@@ -464,81 +464,83 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 396, ../sass/screen.sass */
+/* line 397, ../sass/screen.sass */
 .buttons_box {
   width: 80px;
   margin: 0 auto;
-  background-color: red;
   height: 30px;
 }
 
-/* line 403, ../sass/screen.sass */
+/* line 404, ../sass/screen.sass */
 .about_us_block_pictures {
   width: 100%;
   height: 160px;
   position: relative;
-  background-color: pink;
+  background-color: #ac94ea;
   z-index: 999;
 }
 
-/* line 410, ../sass/screen.sass */
-.about_us_block {
-  height: 60px;
+/* line 411, ../sass/screen.sass */
+.about_us_block_pictures .container {
+  width: 85%;
 }
 
-/* line 413, ../sass/screen.sass */
+/* line 415, ../sass/screen.sass */
+.about_us_block {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* line 419, ../sass/screen.sass */
 .about_us_text_block {
   font-size: 30px;
-  background-color: red;
   width: 140px;
   text-align: center;
   margin: 0 auto;
+  font-family: OpenSansBold;
 }
 
-/* line 421, ../sass/screen.sass */
+/* line 428, ../sass/screen.sass */
 .slide_buttons_box_2 {
   height: 30px;
+  margin: 24px;
 }
 
-/* line 426, ../sass/screen.sass */
+/* line 434, ../sass/screen.sass */
 .icons_maintext_nambers {
   height: 120px;
   width: 200px;
-  background-color: red;
   margin: 0 auto;
 }
 
-/* line 433, ../sass/screen.sass */
+/* line 441, ../sass/screen.sass */
 .about_us_block_pictures_icon {
   position: absolute;
   top: 25px;
   left: 30px;
   height: 65px;
   width: 65px;
-  background-color: pink;
 }
 
-/* line 441, ../sass/screen.sass */
+/* line 449, ../sass/screen.sass */
 .about_us_block_pictures_nambers {
   position: absolute;
   width: 100px;
   height: 20px;
-  background-color: pink;
   top: 70px;
   left: 105px;
 }
 
-/* line 449, ../sass/screen.sass */
+/* line 457, ../sass/screen.sass */
 .about_us_block_pictures_maintext {
   position: absolute;
   width: 100px;
   height: 40px;
-  background-color: pink;
   top: 25px;
   left: 105px;
 }
 
-/* line 458, ../sass/screen.sass */
+/* line 466, ../sass/screen.sass */
 .ander_about_us_block {
   width: 100%;
   height: 500px;
@@ -546,10 +548,81 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: red;
 }
 
-/* line 464, ../sass/screen.sass */
+/* line 472, ../sass/screen.sass */
 .ander_pikture {
   width: 100%;
   height: 200px;
   position: relative;
   background-color: pink;
+}
+
+/* line 478, ../sass/screen.sass */
+.about_us_block_pictures_main {
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 485, ../sass/screen.sass */
+.about_us_block_pictures_icon1 {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  height: 65px;
+  width: 65px;
+  background-image: url(../img/about2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 496, ../sass/screen.sass */
+.about_us_block_pictures_icon2 {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  height: 65px;
+  width: 65px;
+  background-image: url(../img/about2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 507, ../sass/screen.sass */
+.about_us_block_pictures_icon3 {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  height: 65px;
+  width: 65px;
+  background-image: url(../img/about2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 518, ../sass/screen.sass */
+.about_us_block_pictures_icon4 {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  height: 65px;
+  width: 65px;
+  background-image: url(../img/about2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 529, ../sass/screen.sass */
+.about_us_block_pictures_maintext h3 {
+  font-size: 40px;
+  font-family: OpenSansRegular;
+}
+
+/* line 533, ../sass/screen.sass */
+.about_us_block_pictures_nambers h6 {
+  font-size: 14px;
+  font-family: OpenSansRegular;
 }
