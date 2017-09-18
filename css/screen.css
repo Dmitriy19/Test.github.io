@@ -103,7 +103,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
   width: 100%;
   height: 600px;
-  background-color: red;
   background-image: url(../img/Top-pict.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -540,30 +539,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 105px;
 }
 
-/* line 466, ../sass/screen.sass */
-.ander_about_us_block {
-  width: 100%;
-  height: 500px;
-  position: relative;
-  background-color: red;
-}
-
-/* line 472, ../sass/screen.sass */
+/* line 467, ../sass/screen.sass */
 .ander_pikture {
   width: 100%;
   height: 200px;
   position: relative;
-  background-color: pink;
+  background-color: #dddddd;
 }
 
-/* line 478, ../sass/screen.sass */
+/* line 473, ../sass/screen.sass */
 .about_us_block_pictures_main {
   height: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 485, ../sass/screen.sass */
+/* line 480, ../sass/screen.sass */
 .about_us_block_pictures_icon1 {
   position: absolute;
   top: 25px;
@@ -576,7 +567,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 496, ../sass/screen.sass */
+/* line 491, ../sass/screen.sass */
 .about_us_block_pictures_icon2 {
   position: absolute;
   top: 25px;
@@ -589,7 +580,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 507, ../sass/screen.sass */
+/* line 502, ../sass/screen.sass */
 .about_us_block_pictures_icon3 {
   position: absolute;
   top: 25px;
@@ -602,7 +593,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 518, ../sass/screen.sass */
+/* line 513, ../sass/screen.sass */
 .about_us_block_pictures_icon4 {
   position: absolute;
   top: 25px;
@@ -615,14 +606,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/* line 529, ../sass/screen.sass */
+/* line 524, ../sass/screen.sass */
 .about_us_block_pictures_maintext h3 {
   font-size: 40px;
   font-family: OpenSansRegular;
 }
 
-/* line 533, ../sass/screen.sass */
+/* line 528, ../sass/screen.sass */
 .about_us_block_pictures_nambers h6 {
   font-size: 14px;
   font-family: OpenSansRegular;
+}
+
+/* line 532, ../sass/screen.sass */
+.ander_about_us_block {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  position: relative;
+  background-image: url(../img/about_main-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 999;
+}
+
+/* line 546, ../sass/screen.sass */
+.button_more_about_us {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  background-color: red;
+  margin: 10px auto;
 }
