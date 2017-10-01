@@ -5,6 +5,15 @@
 
 @import "compass/reset"
 
+html 
+	min-width: 960px
+
+body 
+	
+.wraperrr
+	overflow-x: hidden !important
+
+
 $pink: pink
 $red: red
 
@@ -93,19 +102,6 @@ $red: red
 	margin: 10px auto
 	//background-color: red
 
-/*.button1
-	height: 20px
-	width: 20px
-	background-image: url(../img/point.png)
-	background-repeat: no-repeat
-	background-size: 15px auto
-	float: left
-	margin:
-		left: 16px
-	padding: 3px
-	&:hover
-		I: pink */
-
 
 .button1
 	position: absolute
@@ -117,7 +113,7 @@ $red: red
 		top: 6px
 		left: 26px
 	&:hover
-		background-color: pink
+		background-color: #ac94ea
 		-webkit-transform: scale(1.2)
 		-ms-transform: scale(1.2)
 		transform: scale(1.2)
@@ -141,8 +137,7 @@ $red: red
 
 	&:hover
 
-		background-color: pink
-		background-color: pink
+		background-color: #ac94ea
 		-webkit-transform: scale(1.2)
 		-ms-transform: scale(1.2)
 		transform: scale(1.2)
@@ -160,8 +155,7 @@ $red: red
 		left: 80px
 	padding: 3px
 	&:hover
-		background-color: pink
-		background-color: pink
+		background-color: #ac94ea
 		-webkit-transform: scale(1.2)
 		-ms-transform: scale(1.2)
 		transform: scale(1.2)
@@ -181,7 +175,7 @@ $red: red
 
 	position: relative
 	width: 100%
-	margin-bottom: 30px
+	margin-bottom: 10px
 	height: 50px
 	//background-color: pink
 	text-align: center
@@ -191,13 +185,14 @@ $red: red
 
 
 .topick_block_text
-	position: absolute
-	width: 100%
+	position: relative
+	width: 300px
 	height: 40px
 	//background-color: red
-	margin: 30px auto 
+	margin: 30px auto 0 auto
 	font-family: "OpenSansBold"
 	font-size: 34px
+
 	
 .ander_topick_block
 	position: relative
@@ -225,12 +220,6 @@ $red: red
 	//background-color: pink
 	margin: 0 auto 
 	margin-bottom: 3px
-
-
-//.slide_buttons_box_2
-//	width: 100% 
-//	position: relative
-
 
 
 .inf_block_pict1
@@ -333,6 +322,7 @@ $red: red
 	float: left
 	//background-color: red
 	height: 320px
+	overflow: hidden
 	background-image: url(../img/Green.png)
 	background-position: center
 	background-repeat: no-repeat
@@ -343,6 +333,7 @@ $red: red
 	float: left
 	//background-color: pink
 	height: 320px
+	overflow: hidden
 	background-image: url(../img/plainmilitery.png)
 	background-position: center
 	background-repeat: no-repeat
@@ -414,8 +405,7 @@ $red: red
 		left: 18px
 	padding: 3px
 	&:hover
-		background-color: pink
-		background-color: pink
+		background-color: #ac94ea
 		-webkit-transform: scale(1.2)
 		-ms-transform: scale(1.2)
 		transform: scale(1.2)
@@ -431,11 +421,16 @@ $red: red
 		left: 46px
 	padding: 3px
 	&:hover
-		background-color: pink
-		background-color: pink
+		background-color: #ac94ea
 		-webkit-transform: scale(1.2)
 		-ms-transform: scale(1.2)
 		transform: scale(1.2)
+
+.button1, .button2, .button3, .button4, .button5
+	-moz-transition: all.1s ease/*В Mozila*/
+	-webkit-transition: all.1s ease/*В safari*/
+	-ms-transition: all.1s ease/*?*/
+
 
 .about_us_block_pictures
 	width: 100%
@@ -504,7 +499,7 @@ $red: red
 	width: 100%
 	height: 130px
 	position: relative
-	background-color: #dddddd
+	background-color: #f2f2f2
 
 .about_us_block_pictures_main
 	height: 100%
@@ -583,7 +578,20 @@ $red: red
 	width: 260px
 	height: 50px
 	margin: 40px auto 
-	background-color: red 
+	background-color: #5dc3e9
+	font-size: 17px
+	font-family: OpenSansLight
+	color: #fff
+	text-align: center
+	padding: 0.85em 0
+	-moz-transition: all.5s ease/*В Mozila*/
+	-webkit-transition: all.5s ease/*В safari*/
+	-ms-transition: all.5s ease/*?*/
+	&:hover
+		background-color: #057D9F
+
+	
+
 
 .what_people_say_block
 	width: 100%
@@ -615,7 +623,7 @@ $red: red
 	
 
 .what_people_say_block_ander_text span
-	color: brown
+	color: #FF5900
 
 .what_people_say_line_block
 	width: 216px
@@ -758,7 +766,7 @@ $red: red
 .blog
 	position: relative
 	width: 100%
-	height: 400px
+	height: 370px
 	//background-color: red
 
 .blog_cont1
@@ -814,29 +822,247 @@ $red: red
 
 
 
+.blog_cont_up_text1
+	margin: 22px auto 
+	position: absolute
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+
+	//background-color: red
+	
+	width: 500px
+	height: 30px
+	text-align: center
+	z-index: 999
+	font-size: 12px
+	font-family: OpenSansSemiBold
+
+.blog_cont_up_text1 span
+	font-family: OpenSansItalic
+
+.blog_cont_down_text1
+	margin: 0px auto 
+	position: absolute
+	top: -1px
+	left: 0
+	bottom: 0
+	right: 0
+	//background-color: pink
+	width: 500px
+	height: 32px
+	margin: 49px auto
+	text-align: center
+	font-size: 18px
+	font-family: OpenSansBold
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.bla 
-
+.want_to_work_with_us_block
+	position: relative
 	width: 100%
-	height: 300px
+	height: 340px
+	//background-color: red
+
+
+.want_to_work_with_us_main_text
+	position: relative
+	height: 40px
+	width: 360px
+	//background-color: pink
+	margin: 68px auto 0 auto
+	font-family: OpenSansBold
+	font-size: 32px
+	text-align: center
+
+.ping_us_today
+	position: relative
+	height: 40px
+	width: 400px
+	margin: 20px auto
+	//background-color: pink
+	text-align: center
+	font-family: OpenSansLight
+	font-size: 17px
+
+footer
+	height: 286px
+	width: 100%
+	background-color: #292a2e
+
+
+.main_init_block
+	position: relative
+	width: 80%
+	height: 260px
+	//background-color: pink
+	z-index: 999
+	margin: 10px auto
+
+.contant
+	position: relative
+	width: 100%
+	height: 160px
+	//background-color: red
+	font-family: OpenSansSemiBold
+	color: #fff
+
+.line
+	position: relative
+	width: 96%
+	height: 2px
+	background-color: #aaaaaa
+	margin: 40px auto 0 auto
+
+
+.box_contact_as
+	position: absolute
+	height: 30px
+	width: 100%
+	margin: 16px auto
+	//background-color: brown
+	font-size: 18px
+	//font-size:
+
+.box_adres 
+	position: absolute
+	height: 50px
+	width: 100%
+	//background-color: brown
+	margin-top: 50px
+	font-size: 10px
+	line-height: 18px
+
+.box_email
+	position: absolute
+	height: 50px
+	width: 100%
+	//background-color: brown
+	margin-top: 110px
+	font-size: 10px
+	line-height: 18px
+
+.box_company
+	position: absolute
+	height: 30px
+	width: 100%
+	margin: 16px auto
+	//background-color: brown
+	font-size: 18px
+	//font-size:
+
+.box_inf
+	position: absolute
+	height: 110px
+	width: 100%
+	//background-color: brown
+	margin-top: 50px
+	font-size: 10px
+	line-height: 18px
+
+.box_inf a
+	color: #fff
+	text-decoration: none
+	font-size: 10px
+	line-height: 20px
+
+.box_news
+	position: absolute
+	height: 30px
+	width: 100%
+	margin: 16px auto
+	//background-color: brown
+	font-size: 18px
+
+.box_picture
+	position: absolute
+	height: 70px
+	width: 100%
+	margin: 16px auto
+	//background-color: brown
+	font-size: 18px
+	background-image: url(../img/pict_footer.png)
+	background-position: center
+	background-repeat: no-repeat
+	background-size: 200px 
+	z-index: 999
+
+.soshial_buttons
+	position: absolute
+	height: 30px
+	width: 100%
+	margin: 90px auto
+
+	//background-color: brown
+.soshial_buttons_float
+	width: 100px
+	height: 30px
+	float: right
+	overflow: hidden
+	//background-color: pink
+
+.soshial_buttons1
+	position: absolute
+	height: 30px
+	width: 30px
+	//background-color: pink
+	background-image: url(../img/in.png)
+	background-position: center
+	background-repeat: no-repeat
+	background-size: 30px 
+
+.soshial_buttons2
+	position: absolute
+	height: 30px
+	width: 30px
+	//background-color: pink
+	margin-left: 35px
+	background-image: url(../img/tv.png)
+	background-position: center
+	background-repeat: no-repeat
+	background-size: 30px 
+
+.soshial_buttons3
+	position: absolute
+	height: 30px
+	width: 30px
+	//background-color: pink
+	margin-left: 70px
+	background-image: url(../img/fa.png)
+	background-position: center
+	background-repeat: no-repeat
+	background-size: 30px 
+
+.bottom_footer
+	position: relative
+	width: 96%
+	height: 30px
+	font-size: 10px
+	font-family: OpenSansSemiBold
+	color: #fff
+	margin: 30px auto 0px auto 
+
+.bottom_footer_left
+	width: 160px
+	height: 30px
+	float: left
+	overflow: hidden
+
+.bottom_footer_right
+	width: 220px
+	height: 30px
+	float: right
+	overflow: hidden
+
+
+
+
+
+
 
 
 	
+
 
 
 
