@@ -72,12 +72,7 @@ html {
   min-width: 960px;
 }
 
-/* line 13, ../sass/screen.sass */
-.wraperrr {
-  overflow-x: hidden !important;
-}
-
-/* line 20, ../sass/screen.sass */
+/* line 19, ../sass/screen.sass */
 .header_top {
   position: absolute;
   width: 100%;
@@ -85,7 +80,7 @@ html {
   z-index: 1;
 }
 
-/* line 31, ../sass/screen.sass */
+/* line 30, ../sass/screen.sass */
 .logo {
   width: 130px;
   height: 45px;
@@ -96,7 +91,7 @@ html {
   background-size: 84px auto;
 }
 
-/* line 42, ../sass/screen.sass */
+/* line 41, ../sass/screen.sass */
 .menu {
   width: 60px;
   height: 45px;
@@ -108,7 +103,7 @@ html {
   background-size: 40px auto;
 }
 
-/* line 55, ../sass/screen.sass */
+/* line 53, ../sass/screen.sass */
 .ander_header {
   position: relative;
   width: 100%;
@@ -1200,4 +1195,40 @@ footer {
   height: 30px;
   float: right;
   overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 1059, ../sass/screen.sass */
+  .logo {
+    width: 260px;
+    height: 90px;
+    margin-top: 54px;
+    margin-left: 54px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 200px auto;
+  }
+
+  /* line 1070, ../sass/screen.sass */
+  .menu {
+    width: 120px;
+    height: 90px;
+    margin-top: 54px;
+    margin-right: 54px;
+    float: right;
+    background-image: url(../img/Menu.png);
+    background-repeat: no-repeat;
+    background-size: 130px auto;
+  }
+
+  /* line 1082, ../sass/screen.sass */
+  .ander_header {
+    position: relative;
+    width: 100%;
+    height: 1600px;
+    background-image: url(../img/Top-pict.png);
+    background-position: -600px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
