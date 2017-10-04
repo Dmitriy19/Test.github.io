@@ -50,7 +50,7 @@ $red: red
 	background-repeat: no-repeat
 	background-size: 40px auto
 
-.ander_header 
+.under_header 
 	position: relative
 	width: 100%
 	height: 600px
@@ -64,15 +64,22 @@ $red: red
 		
 
 
-.ander_header_text
-	width: 560px
+.under_header_text
+	position: relative
+	width: 500px
 	margin: 164px auto 210px auto
+	//background-color: red
 
 .main_text
+	position: relative
+	width: 460px
 	font-size: 38px
 	text-align: center 
+	margin: 0 auto
 	color: #fff
 	font-family: "OpenSansSemiBold"
+	//background-color: pink
+
 
 .ander_main_text
 	color: #fff
@@ -89,10 +96,11 @@ $red: red
 
 
 .slide_buttons
-	position: absolute
-	z-index: 1
+	position: relative
 	height: 38px
-	width: 100%
+	width: 100px
+	margin: 0 auto
+
 	//background-color: pink
 
 .slide_buttons_box 
@@ -1054,17 +1062,20 @@ footer
 	float: right
 	overflow: hidden
 
+@media only screen and (max-device-width: 480px)
 
-@media screen and (min-width: 768px)
+	.button1
+		height: 88px
+		width: 88px
+
+
 	.logo 
 		width: 260px
-		height: 90px
+		height: 90px 
 		
 		margin:
 			top: 54px
 			left: 54px
-		background-image: url(../img/logo.png) 
-		background-repeat: no-repeat
 		background-size: 200px auto
 
 	.menu
@@ -1075,19 +1086,59 @@ footer
 			top: 54px
 			right: 54px
 		float: right
-		background-image: url(../img/Menu.png)
-		background-repeat: no-repeat
 		background-size: 130px auto
 
-	.ander_header 
-		position: relative
-		width: 100%
-		height: 1600px
-		//left: 100px
-		background-image: url(../img/Top-pict.png) 	
+	.under_header 
+
+		height: 1600px 	
 		background-position: -600px 0
 		background-repeat: no-repeat
-		background-size: cover
+		
+
+
+	.under_header_text
+
+		width: 90%
+		height: 100%
+		//background-color: red
+
+	
+	.main_text
+		width: 100%
+		margin: 300px auto 0 auto
+		text-align: center
+		font-family: "OpenSansSemiBold"
+
+
+	.main_text h6
+		color: #fff
+		font-size: 106px
+
+	.ander_main_text
+		font-size: 50px
+		margin-top: 70px
+
+	.slide_buttons
+		margin-top: 220px
+		width: 100px
+		margin: 0 auto
+
+	.slide_buttons .container, .row
+		padding: 0
+
+	.slide_buttons_box 
+		width: 50px
+		height: 30px
+		padding: 0
+		//margin: 10px auto
+		//background-color: red
+
+
+//Медиа кнопки
+
+	
+
+
 
 
 
