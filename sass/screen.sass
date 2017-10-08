@@ -18,9 +18,9 @@ $red: red
 .header_top
 	position: absolute
 	width: 100%
-	height: 60px
-	 
+	height: 180px
 	z-index: 1
+	 
 
 
 
@@ -91,9 +91,9 @@ $red: red
 .ander_top_pikture
 	position: relative
 	width: 100%
-	height: 300px
-	margin-top: 0
+	height: 260px
 	//background-color: red
+	padding: 1px
 
 .slide_buttons
 	position: relative
@@ -181,7 +181,7 @@ $red: red
 	position: relative
 	width: 100%
 	padding: 1px
-	margin-bottom: 10px
+	margin: 10px auto 10px auto
 	height: 50px
 	//background-color: pink
 	text-align: center
@@ -214,14 +214,11 @@ $red: red
 	margin: 0 auto
 
 
-.includ_ander_topick_block .row, .container
-	width: 100%
-	margin: 0 auto
 
 
 
 .inf_block
-	width: 180px
+	width: 200px
 	height: 176px
 	//background-color: pink
 	margin: 0 auto 
@@ -443,6 +440,7 @@ $red: red
 	height: 160px
 	position: relative
 	background-color: #ac94ea
+	padding: 1px
 	z-index: 999
 
 .about_us_block_pictures .container
@@ -459,6 +457,7 @@ $red: red
 	width: 140px
 	text-align: center
 	margin: 0 auto
+	padding: 1px
 	font-family: OpenSansBold
 
 
@@ -469,8 +468,10 @@ $red: red
 
 
 .icons_maintext_nambers
+	position: relative
+	padding: 1px
 	height: 120px
-	width: 200px
+	width: 260px
 	//background-color: red
 	margin: 0 auto
 
@@ -508,6 +509,7 @@ $red: red
 	background-color: #f2f2f2
 
 .about_us_block_pictures_main
+	padding: 1px
 	height: 100%
 	margin-top: 20px
 	margin-bottom: 20px
@@ -561,10 +563,13 @@ $red: red
 .about_us_block_pictures_maintext h3
 	font-size: 40px
 	font-family: OpenSansRegular
+	color: #fff
 
 .about_us_block_pictures_nambers h6
 	font-size: 14px
 	font-family: OpenSansRegular
+	color: #fff
+
 
 .ander_about_us_block
 	position: relative
@@ -619,7 +624,6 @@ $red: red
 .what_people_say_block_ander_text
 	position: relative
 	width: 580px
-	height: 180px
 	margin: 26px auto 0
 	font-family: OpenSansSemiBold
 	font-size: 15px
@@ -1060,7 +1064,20 @@ footer
 	float: right
 	overflow: hidden
 
-@media only screen and (max-device-width: 480px)
+.slide_buttons_2
+	width: 60px
+	margin: 20px auto 60px auto
+
+
+@media (min-width: 420px)
+	//.col-sm-3
+	//	width: 50%
+
+.container
+	width: 100%
+
+@media only screen and (max-device-width: 420px)
+
 
 	
 
@@ -1139,9 +1156,17 @@ footer
 		width: 150px
 		height: 70px
 		
+	.button_v
+		height: 0
+		width: 0
 		
 
 	.button1
+		height: 50px
+		width: 50px
+		border-radius: 50px
+
+	.button2
 		height: 50px
 		width: 50px
 		border-radius: 50px
@@ -1157,7 +1182,7 @@ footer
 
 	.topick_block
 		width: 100%
-		height: 300px
+		height: 260px
 		//background-color: red
 		margin: 0 auto
 
@@ -1170,6 +1195,248 @@ footer
 		//background-color: pink
 		margin: 100px auto 70px auto
 
+	.ander_topick_block
+		height: 900px
+
+	.includ_ander_topick_block
+		margin: 0 auto
+		width: 100%
+		height: 800px
+
+
+	.inf_block
+		width: 98%
+		height: 500px
+		margin: 0 auto 140px auto
+		//background-color: red
+
+
+	
+
+	.inf_block_main_text
+		height: 120px
+		width: 100%
+		margin: 30px auto 10px auto
+		font-size: 52px
+		padding: 3px 0px 0px 3px
+		font-family: OpenSansBold
+		//background-color: pink
+
+	.inf_block_text
+		height: 300px
+		width: 425px
+		margin: 0 auto
+		text-align: center
+		font-size: 41px
+		line-height: 50px
+		//background-color: pink
+		padding: 1px
+
+	.inf_block_pict1
+		height: 120px
+		width: 300px
+		//background-color: pinc
+		margin: 6px auto
+		background-size: 190px auto
+
+	.inf_block_pict2
+		height: 120px
+		width: 300px
+		//background-color: pinc
+		margin: 6px auto
+		background-size: 150px auto
+
+	.inf_block_pict3
+		height: 120px
+		width: 300px
+		//background-color: pinc
+		margin: 6px auto
+		background-size: 140px auto
+
+	.inf_block_pict4
+		height: 120px
+		width: 300px
+		//background-color: pinc
+		margin: 6px auto
+		background-size: 130px auto
+
+	.inf_block_main_text_2
+		margin: 40px 0 0 0
+		height: 80px 
+
+
+	.piktures_block1_1
+		height: 800px
+		background-size: 1700px auto
+		background-position: -690px -60px
+
+	.piktures_block1 .container, .row
+		margin: 0
+		padding: 0
+
+	.piktures_block1_2
+		height: 800px
+		background-size: 1700px auto
+		background-position: center -140px
+
+	.piktures_block2_3
+		height: 800px
+		background-size: 3200px auto
+		background-position: -300px -350px
+
+	.piktures_block2_4
+		height: 800px
+		background-size: 2400px auto
+		background-position: -590px -100px
+
+	.about_us_block_pictures
+		height: 1500px
+
+	.icons_maintext_nambers
+		height: 340px
+		//background-color: red
+		width: 90%
+
+	.about_us_block_pictures_icon1
+		height: 240px
+		width: 240px
+		background-size: 240px auto
+		//background-color: pink
+
+	.about_us_block_pictures_icon2
+		height: 240px
+		width: 240px
+		background-size: 240px auto
+		//background-color: pink
+
+	.about_us_block_pictures_icon3
+		height: 240px
+		width: 240px
+		background-size: 240px auto
+		//background-color: pink
+
+	.about_us_block_pictures_icon4
+		height: 240px
+		width: 240px
+		background-size: 240px auto
+		//background-color: pink
+
+	.about_us_block_pictures_maintext
+		height: 120px
+		width: 300px
+		//background-color: pink
+		left: 340px
+		top: 50px
+		font-size: 100px
+
+	.about_us_block_pictures_maintext h3
+		font-size: 100px
+
+	.about_us_block_pictures_nambers
+		height: 80px
+		width: 460px
+		//background-color: pink
+		top: 160px
+		left: 340px
+		
+	.about_us_block_pictures_nambers h6
+		font-size: 60px
+
+	.about_us_block_pictures_main
+		margin-top: 100px
+
+	.our_latest_works_block_head
+		font-size: 96px
+		margin: 0 auto 120px auto
+
+	.slide_buttons_2
+		width: 60px
+		margin: 20px auto 60px auto
+
+	.slide_buttons_2 
+		height: 0
+		margin: 0
+		padding: 0
+
+	.about_us_text_block
+		margin-top: 180px
+		font-size: 98px
+		width: 100%
+		height: 80px
+
+	.about_us_block
+		height: 360px
+		width: 100%
+
+	.ander_about_us_block
+		height: 1400px
+		background-size: 4300px auto
+		background-position: -3200px 0px
+
+	.ander_pikture
+		height: 340px
+
+	.button_more_about_us
+		width: 740px
+		height: 180px
+		margin: 80px auto
+		font-size: 64px
+
+	.what_people_say_block
+		width: 100%
+		height: 2360px
+
+	.what_people_say_main_block
+		width: 100%
+		height: 100px
+		margin: 150px auto 0 auto
+		font-size: 96px
+
+	.what_people_say_block_ander_text
+		width: 900px
+		margin: 80px auto 0
+		font-size: 60px
+
+	.what_people_say_line_block
+		width: 516px
+		height: 2px
+		margin: 80px auto 10px auto
+		opacity: 0.7
+
+	.what_people_say_block_barr 
+		width: 380px
+		height: 140px
+		margin: 120px auto 0
+		font-size: 38px
+
+	.slide_buttons_v 
+		padding: 1px
+		margin: 80px auto
+		width: 300px
+		height: 70px
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+	
 
 
 
