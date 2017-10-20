@@ -36,6 +36,8 @@ $red: red
 	background-image: url(../img/logo.png) 
 	background-repeat: no-repeat
 	background-size: 84px auto
+	&:hover
+		background-image: url(../img/logo.k.png) 
 
 .menu
 	width: 60px
@@ -48,6 +50,8 @@ $red: red
 	background-image: url(../img/Menu.png)
 	background-repeat: no-repeat
 	background-size: 40px auto
+	&:hover
+		background-image: url(../img/Menu.k.png)
 
 .under_header 
 	position: relative
@@ -837,7 +841,6 @@ footer
 .main_init_block
 	position: relative
 	width: 80%
-	height: 260px
 	//background-color: pink
 	z-index: 999
 	margin: 10px auto
@@ -953,7 +956,22 @@ footer
 	background-image: url(../img/in.png)
 	background-position: center
 	background-repeat: no-repeat
-	background-size: 30px 
+	background-size: 30px
+	-moz-transition: all.5s ease/*В Mozila*/
+	-webkit-transition: all.5s ease/*В safari*/
+	-ms-transition: all.5s ease/*?*/
+	&:hover
+		background-image: url(../img/in.kn.png)
+		
+	&:active
+		background-image: url(../img/in.k.png)
+		-moz-transition: none/*В Mozila*/
+		-webkit-transition: none/*В safari*/
+		-ms-transition: none/*?*/
+
+.soshial_dop1
+
+
 
 .soshial_buttons2
 	position: absolute
@@ -964,7 +982,17 @@ footer
 	background-image: url(../img/tv.png)
 	background-position: center
 	background-repeat: no-repeat
-	background-size: 30px 
+	background-size: 30px
+	-moz-transition: all.5s ease/*В Mozila*/
+	-webkit-transition: all.5s ease/*В safari*/
+	-ms-transition: all.5s ease/*?*/
+	&:hover
+		background-image: url(../img/tv.kn.png)
+	&:active
+		background-image: url(../img/tv.k.png)
+		-moz-transition: none/*В Mozila*/
+		-webkit-transition: none/*В safari*/
+		-ms-transition: none/*?*/
 
 .soshial_buttons3
 	position: absolute
@@ -975,7 +1003,19 @@ footer
 	background-image: url(../img/fa.png)
 	background-position: center
 	background-repeat: no-repeat
-	background-size: 30px 
+	background-size: 30px
+	-moz-transition: all.5s ease/*В Mozila*/
+	-webkit-transition: all.5s ease/*В safari*/
+	-ms-transition: all.5s ease/*?*/
+
+	&:hover
+		background-image: url(../img/fa.kn.png)
+		
+	&:active
+		background-image: url(../img/fa.k.png)
+		-moz-transition: none/*В Mozila*/
+		-webkit-transition: none/*В safari*/
+		-ms-transition: none/*?*/
 
 .bottom_footer
 	position: relative
@@ -1006,7 +1046,19 @@ footer
 .blog_cont_mb
 	padding: 1px
 
+.main_init_block .container
+	width: 94%
+
 @media only screen and (max-device-width: 662px)
+
+@media (min-width: 768px)
+	.col-sm-12 
+		padding: 0px
+
+	.box_email
+		margin-top: 0px
+
+
 	
 	
 
@@ -1574,10 +1626,14 @@ footer
 	.contant
 		width: 100%
 
-	@media only screen and (max-device-width,: 420px)
+	.main_init_block
+		height: 100%
 
 
 
+	
+
+	
 
 
 
