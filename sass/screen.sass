@@ -6,8 +6,7 @@
 @import "compass/reset"
 
 
- 
-	
+
 //.wraperrr
 //	overflow-x: hidden !important
 
@@ -32,10 +31,13 @@ $red: red
 	
 	margin:
 		top: 26px
-		left: 54px
+		left: 80px
 	background-image: url(../img/logo.png) 
 	background-repeat: no-repeat
 	background-size: 84px auto
+	-moz-transition: all.5s ease/*В Mozila*/
+	-webkit-transition: all.5s ease/*В safari*/
+	-ms-transition: all.5s ease/*?*/
 	&:hover
 		background-image: url(../img/logo.k.png) 
 
@@ -45,11 +47,14 @@ $red: red
 	
 	margin:
 		top: 26px
-		right: 26px
+		right: 66px
 	float: right
 	background-image: url(../img/Menu.png)
 	background-repeat: no-repeat
 	background-size: 40px auto
+	-moz-transition: all.5s ease/*В Mozila*/
+	-webkit-transition: all.5s ease/*В safari*/
+	-ms-transition: all.5s ease/*?*/
 	&:hover
 		background-image: url(../img/Menu.k.png)
 
@@ -86,7 +91,7 @@ $red: red
 
 .under_main_text
 	color: #fff
-	font-size: 14
+	font-size: 14px
 	margin-top: 26px
 	text-align: center
 	font-family: "OpenSansRegular"
@@ -102,6 +107,7 @@ $red: red
 	position: relative
 	height: 38px
 	width: 100px
+	min-width: 100px
 	margin: 0 auto
 
 	//background-color: pink
@@ -294,6 +300,12 @@ $red: red
 	font-size: 12px
 	line-height: 16px
 
+.inf_block_text_optim2
+	width: 80%
+
+.inf_block_text_optim
+	width: 66%
+
 
 
 .our_latest_works_block 
@@ -311,7 +323,9 @@ $red: red
 	//background-color: pink
 	text-align: center 
 	font-size: 32px
-	font-family: "OpenSansSemiBold"
+	font-family: "OpenSansBold"
+
+
 
 .piktures_block1_top
 	position: relative
@@ -355,7 +369,7 @@ $red: red
 	//position: relative.	
 	width: 100%
 
-.piktures_block1_ander .col-sm-6, .col-md-6, .col-lg-3 
+.piktures_block1_ander .col-sm-6, .col-md-6, .col-lg-3, .col-md-12, .col-xs-12, .col-lg-12
 	margin: 0
 	padding: 0
 
@@ -608,7 +622,7 @@ $red: red
 
 .what_people_say_block
 	width: 100%
-	height: 540px
+	height: 500px
 	//background-color: red
 
 .what_people_say_main_block
@@ -625,7 +639,7 @@ $red: red
 
 .what_people_say_block_ander_text
 	position: relative
-	width: 580px
+	width: 520px
 	margin: 26px auto 0
 	font-family: OpenSansSemiBold
 	font-size: 15px
@@ -649,7 +663,7 @@ $red: red
 	width: 240px
 	height: 30px
 	//background-color: gray
-	margin: 20px auto 40px auto
+	margin: 20px auto 16px auto
 	font-size: 11px
 	font-family: OpenSansSemiBold
 	text-align: center
@@ -657,6 +671,7 @@ $red: red
 
 .firms
 	width: 100%
+	padding: 30px
 	background-color: #363636
 
 .firm_block1
@@ -716,10 +731,10 @@ $red: red
 .latedt_blog_posts_main_text
 	position: relative
 	height: 50px
-	margin: 70px auto
+	margin: 70px auto 0 auto
 	width: 320px
 	//background-color: pink
-	font-family: OpenSansSemiBold
+	font-family: OpenSansBold
 	font-size: 30px
 	text-align: center
 
@@ -885,7 +900,7 @@ footer
 	height: 50px
 	width: 100%
 	//background-color: brown
-	margin-top: 110px
+	
 	font-size: 10px
 	line-height: 18px
 
@@ -969,7 +984,6 @@ footer
 		-webkit-transition: none/*В safari*/
 		-ms-transition: none/*?*/
 
-.soshial_dop1
 
 
 
@@ -1511,6 +1525,10 @@ footer
 
 	.block_contact_as
 		height: 620px
+
+	.block_contact_as .container
+		padding: 0
+
 
 	.box_contact_as
 		height: 60px
