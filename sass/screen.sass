@@ -107,7 +107,6 @@ $red: red
 	position: relative
 	height: 38px
 	width: 100px
-	min-width: 100px
 	margin: 0 auto
 
 	//background-color: pink
@@ -413,38 +412,7 @@ $red: red
 
 	//background-color: red
 	height: 30px
-
-.button4
-	position: absolute
-	height: 14px
-	width: 14px
-	background-color: #dddddd
-	border-radius: 15px
-	margin:
-		top: 6px
-		left: 18px
-	padding: 3px
-	&:hover
-		background-color: #ac94ea
-		-webkit-transform: scale(1.2)
-		-ms-transform: scale(1.2)
-		transform: scale(1.2)
-
-.button5
-	position: absolute
-	height: 14px
-	width: 14px
-	background-color: #dddddd
-	border-radius: 15px
-	margin:
-		top: 6px
-		left: 46px
-	padding: 3px
-	&:hover
-		background-color: #ac94ea
-		-webkit-transform: scale(1.2)
-		-ms-transform: scale(1.2)
-		transform: scale(1.2)
+		
 
 .button1, .button2, .button3, .button4, .button5
 	-moz-transition: all.1s ease/*В Mozila*/
@@ -472,7 +440,7 @@ $red: red
 	//background-color: red
 	width: 140px
 	text-align: center
-	margin: 0 auto
+	margin: 16px auto
 	padding: 1px
 	font-family: OpenSansBold
 
@@ -600,7 +568,7 @@ $red: red
 	//background-color: red
 
 
-.button_more_about_us
+/*.button_more_about_us
 	position: relative
 	width: 260px
 	height: 50px
@@ -612,10 +580,36 @@ $red: red
 	text-align: center
 	padding: 0.85em 0
 	-moz-transition: all.5s ease/*В Mozila*/
-	-webkit-transition: all.5s ease/*В safari*/
-	-ms-transition: all.5s ease/*?*/
+	/*-webkit-transition: all.5s ease/*В safari*/
+	/*-ms-transition: all.5s ease/*?*/
+	/*&:hover
+		background-color: #057D9F*/
+.block_around
+	width: 260px
+	height: 50px
+	margin: 0 auto
+
+.button_more_about_us
+	display: inline-block
+	outline: none
+	cursor: pointer
+	text-align: center
+	text-decoration: none
+	padding: 0.85em 0
+	width: 260px
+	height: 50px
+	margin: 40px auto
+	background-color: #5dc3e9
+	font-size: 17px
+	font-family: OpenSansLight
+	-moz-transition: all.5s ease
+	-webkit-transition: all.5s ease
+	-ms-transition: all.5s ease
+	color: #fff
 	&:hover
 		background-color: #057D9F
+		color: #fff	 
+		text-decoration: none
 
 	
 
@@ -846,6 +840,7 @@ $red: red
 	text-align: center
 	font-family: OpenSansLight
 	font-size: 17px
+	line-height: 22px
 
 footer
 	
@@ -1059,9 +1054,24 @@ footer
 
 .blog_cont_mb
 	padding: 1px
-
+ 
 .main_init_block .container
 	width: 94%
+a
+	-moz-transition: all.3s ease/*В Mozila*/
+	-webkit-transition: all.3s ease/*В safari*/
+	-ms-transition: all.3s ease/*?*/
+
+a:hover
+	color: #ac94ea
+	
+
+	
+
+@media (min-width: 768px)
+	.container 
+		width: 100%
+
 
 @media only screen and (max-device-width: 662px)
 
@@ -1072,24 +1082,28 @@ footer
 	.box_email
 		margin-top: 0px
 
+@media (min-width: 480px)
+	.slide_buttons
+		width: 80px
 
-	
-	
+@media (min-width: 980px)
+	.slide_buttons
+		width: 100px
+
+	.slide_buttons_2
+		width: 60px 
 
 
 
 
-@media (min-width: 420px)
-	//.col-sm-3
-	//	width: 50%
 
-.container
-	width: 100%
+
+
 
 @media only screen and (max-device-width: 480px)
 
 
-	
+	 
 
 	.logo 
 		width: 260px
