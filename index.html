@@ -3,7 +3,12 @@
 <head>
   <title>Test Site</title>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="dist/bundle.js"></script>
+  
 </head>
 <body>
   <header>
@@ -16,7 +21,7 @@
           </div>
           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
             <div class="menu"></div>
-            
+          
           </div>
           
         </div>
@@ -26,52 +31,66 @@
     </div>
   </header>
 
-  <div class="under_header under_header_check">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-hidden col-sm-12 col-md-12 col-lg-12">
-          <div class="under_header_text">
-            <div class="main_text">
-              <h6>We build custom Web and mobile apps </h6>
-            </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-            <div class="under_main_text">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="slider1.png" alt="Los Angeles">
+        <div class="carousel-caption">
+          <div class="main_text">
+              <h6>We build custom Web and mobile apps </h6>
+          </div>
+          <div class="under_main_text">
               <h3>We speak Angularjs, responsive design, iOS, .Net, and Umbraco, just to name a few technologies. After your first project with us, you'll never look anywhere else for a web, mobile, or operations partner.</h3><h3>True story.</h3>
             </div>
           </div>
-        </div>
-      </div>
     </div>
-    
 
-        
-
-
-      <div class="slide_buttons slide_buttons_for_480">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                  <div class="slide_buttons_box">
-                      <div class="button1"></div>
-                  </div>
-                </div>  
-                <div class="col-xs- col-sm-4 col-md-4 col-lg-4 visible-md visible-lg">
-                  <div class="slide_buttons_box">
-                      <div class="button2 button_v "></div> 
-                  </div>
-                </div>  
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                  <div class="slide_buttons_box">
-                      <div class="button3"></div>       
-                  </div>
-                </div>  
-              </div>
+    <div class="item">
+      <img src="slider1.png" alt="Chicago">
+        <div class="carousel-caption">
+          <div class="main_text">
+              <h6>We build custom Web and mobile apps </h6>
+          </div>
+          <div class="under_main_text">
+              <h3>We speak Angularjs, responsive design, iOS, .Net, and Umbraco, just to name a few technologies. After your first project with us, you'll never look anywhere else for a web, mobile, or operations partner.</h3><h3>True story.</h3>
             </div>
-      </div>
-            
+          </div>
 
-            
-          
+    </div>
+
+    <div class="item">
+      <img src="slider1.png" alt="New York">
+        <div class="carousel-caption">
+          <div class="main_text">
+              <h6>We build custom Web and mobile apps </h6>
+          </div>
+          <div class="under_main_text">
+              <h3>We speak Angularjs, responsive design, iOS, .Net, and Umbraco, just to name a few technologies. After your first project with us, you'll never look anywhere else for a web, mobile, or operations partner.</h3><h3>True story.</h3>
+            </div>
+          </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+     
         
   </div>
 

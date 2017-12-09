@@ -1,3 +1,4 @@
+
 const argv = {
     verbose:    _.includes(process.argv, '-v') || _.includes(process.argv, '--verbose'),
     json:       _.includes(process.argv, '--json'),
@@ -13,6 +14,11 @@ module.exports = {
         }),
         require('postcss-url-mapper')(function(url) {
             return argv.production ? url : url.replace(new RegExp('^/'), 'http://localhost:3000/');
+        }),
+
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            JQuery: 'jquery'
         })
     ]
 };
